@@ -5,7 +5,7 @@ print("\n")
 # Creating token of words
 print("Creating token of words:")
 from nltk.tokenize import word_tokenize
-text="I am Mahabub !! I am a student of Computer Science and Engineering. I am doing my thesis on Natural Language Processing.My groupmates are Saharukh, Changu- Mangu"
+text="Despite its soaring popularity and impressive growth streak, Dogecoin falls far behind mainstream cryptocurrencies in terms of price. On 18 May 2021, Dogecoin was priced at less than $0.5, whereas Bitcoin stood at $42,877.42. [4]"
 tokenize_word=word_tokenize(text)
 print(tokenize_word)
 print("\n")
