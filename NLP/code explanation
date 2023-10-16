@@ -1,0 +1,6 @@
+firstly the raw text is taken as input, and the "word_tokenize()" function splits and saves tokens of words by punctuation. After tokenizing, the base/root word of 
+all the token\words [for example, “skip”+”s”=”skips”,”skip”+”ing”=”skipping”,and“skip”+”ed”=”skipped" mean the same thing with added prefixes and suffixes] are taken 
+by the "stem()" function, which reduces the processing time for text analysis. After stemming, all the stemmas are tagged into parts of speech, which they represent 
+in the sentence by using the "pos_tag()" function. Using the "lemmatize()" function, the base word for different tenses, genders, and moods is identified (for example, 
+the base/lemma of "am," "is," and "are" is "be"). Following lemmatization, the NLP algorithm attempts to comprehend the meaning of a named entity (for example, "Dhaka" 
+is a location; "Washington" is both a name and a location) in order to better comprehend the sentiment of the input sentence. 
